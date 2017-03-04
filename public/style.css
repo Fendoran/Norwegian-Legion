@@ -1,0 +1,408 @@
+/*
+	Theme Name: NorwegianLegion HTML5/CSS3 Layout
+	Date: 20/02/2017
+	Author: Aleksander Eikevåg
+*/
+
+body {
+	background-image: url('background.png');
+	color: #000305;
+	font-size: 87.5%; /* Base font size is 14px */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	color: white;
+}
+
+h2 {
+	color: #FF9900;
+}
+
+li {
+	color: white;
+}
+
+b {
+	color: white;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+
+}
+
+a:hover, a:active {
+	color: #FFF;
+
+}
+
+.curse {
+	width: 15px;
+	height: 15px;
+}
+
+.facebook {
+	width: 15px;
+	height: 15px;
+}
+
+.twitter {
+	width: 15px;
+	height: 15px;
+}
+
+.youtube {
+	width: 15px;
+	height: 15px;
+}
+
+a.paypal {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 50px;
+	background-image: url("paypal.png");
+	background-size: 100%;
+	display: block;
+}
+
+a.paypal:hover {
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("paypal_overlay.png");
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #171717;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topcontent {
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.middlecontent {
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent {
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.contribution-top {
+	width: 65%;
+	float: left;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1%;
+	margin-top: 2%;
+}
+
+.contribution-bottom {
+	width: 65%;
+	float: right;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1%;
+	margin-top: 2%;
+}
+
+.twitch {
+	width: auto;
+	float: right;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin: 2% 23.6% 0 0;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
+.top-sidebar {
+	width: 25%;
+	float: right;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 0 1.5% 0 0;
+	padding: 1% 1%;
+}
+
+.middle-sidebar {
+	width: 25%;
+	float: right;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 1.5% 0 0;
+	padding: 1% 1%;
+}
+
+.bottom-sidebar {
+	width: 25%;
+	float: right;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 1.5% 0 0;
+	padding: 1% 1%;
+}
+
+.twitch-sidebar {
+	width: auto;
+	float: right;
+	background-color: #2a2a2a;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0 0 0;
+	padding: 2%;
+}
+
+.login {
+	float: right;
+	padding: 0 1% 2% 0;
+	color: white;
+
+}
+
+.login input[type=text]{
+	width: 120px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #2a2a2a;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 120px;
+	height: 20px;
+	background: transparent;
+	border: 1px solid #2a2a2a;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=submit], .login button{
+	height: 25px;
+	background: #2a2a2a;
+	border: 1px solid #2a2a2a;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #CF5C3F;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1px;
+	margin-top: 7px;
+}
+
+.login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=submit]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #171717;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #FFF;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+	.body {
+		width: 90%;
+		font-size: 95%;
+	}
+
+	.mainHeader img {
+		width: 100%;
+	}
+
+	.mainHeader nav {
+		height: 160px;
+	}
+
+	.mainHeader nav ul {
+		padding-left: 0
+	}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.post-info {
+		display: none;
+	}
+
+	.topcontent {
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+	}
+
+	.bottomcontent {
+		margin-top: 3%;
+	}
+
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 94%;
+	margin: 2% 0 2% 0;
+	padding: 2% 3%;
+	}
+
+
+}
